@@ -3,5 +3,6 @@
      {"name":"chowmein","orders":400},
      {"name":"naan","orders":600},
      {"name":"fried rice","orders":300},
-     {"name":"chicken","orders":900}
+     {"name":"chicken","orders":900},
+     {"name":"potato balls","orders":1500}
 ]
