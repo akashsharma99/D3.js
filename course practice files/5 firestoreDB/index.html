@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Document</title>
+</head>
+
+<body>
+     <div class="canvas">
+          
+     </div>
+
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
+     <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-firestore.js"></script>
+     
+     <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  let firebaseConfig = {
+    apiKey: "AIzaSyBgHJTePALnYb6zR7B1fFTiJMv6IhbKSds",
+    authDomain: "d3-firebase-practise.firebaseapp.com",
+    databaseURL: "https://d3-firebase-practise.firebaseio.com",
+    projectId: "d3-firebase-practise",
+    storageBucket: "d3-firebase-practise.appspot.com",
+    messagingSenderId: "1088049263935",
+    appId: "1:1088049263935:web:4ac8041112c0b63f"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const db=firebase.firestore();
+  //db.settings({timestampsInSnapshots:true});
+</script>
+
+
+
+     <script src="https://d3js.org/d3.v5.min.js"></script>
+     <script src="index.js"></script>
+</body>
+
+</html>
